@@ -1,0 +1,30 @@
+{
+  "best_model": "Random Forest",
+  "cv_folds": 5,
+  "numeric_features": [
+    "satisfaction_level",
+    "last_evaluation",
+    "number_project",
+    "average_monthly_hours",
+    "time_spend_company",
+    "Work_accident",
+    "promotion_last_5years",
+    "work_intensity",
+    "satisfaction_eval_gap",
+    "long_stay_no_promo"
+  ],
+  "ordinal_features": [
+    "salary"
+  ],
+  "nominal_features": [
+    "Department"
+  ],
+  "target_col": "left",
+  "cv_metrics": {
+    "Accuracy": 0.9842,
+    "F1": 0.9504,
+    "Precision": 0.9886,
+    "Recall": 0.9151,
+    "ROC-AUC": 0.9802
+  }
+}
